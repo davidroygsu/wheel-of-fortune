@@ -11,7 +11,41 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 60%;
+}
+.loginBox
+{
+    color: white;
+    width:500px;
+    height:auto;
+    background-color: rgba(173, 112, 0, 0.856);
+    margin-right:40%;
+    margin-left:40%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    padding: 30px;
+    border: 5px solid rgb(255, 238, 0);
+    border-radius: 25px;
+}
+#logo
+{
+    width:50%;
+    display: flex;
+    align-items: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+.credentials
+{
+    text-align: center;
 }
 body
 {
