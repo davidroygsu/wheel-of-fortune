@@ -8,8 +8,8 @@
     <title>Homepage</title>
 </head>
 <body>
-    <main class="bg">
-        <form action="/action_page.php" method="post">
+    <main class="bg"></main>
+        <form action="/index.php" method="post">
 
             <div class="loginBox">
                 <img src="./logo.gif" alt="logo" id="logo">
@@ -19,11 +19,13 @@
                 <label for="pass"><b>Password</b></label>
                 <input type="password" placeholder="Password" name="pass" required><br>
         
-                <button type="submit">Login</button>
-                <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
+                <button type="submit" id="submit">Login</button>
+                <p class= "register">Not a member? <a href="./register.php" id="regLink">Register Now!</a></p>
+
             </div>
-    </main>
+
+            <?php
+            include 'footer.html'
+            ?>
 </body>
 </html>

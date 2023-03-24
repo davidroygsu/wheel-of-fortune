@@ -9,5 +9,22 @@
 </head>
 <body>
     <main class="bg"></main>
+    <div class="loginBox">
+        <h2>Sign up</h2>
+        <label for="name" class="credentials"><b>Username: </b></label>
+        <input type="text" name="name" required ><br>
+
+        <label for="pass"><b>Password:</b></label>
+        <input type="password" placeholder="Password" name="pass" required><br>
+
+        <label for="pass"><b>Confirm Password:</b></label>
+        <input type="password" placeholder="Password" name="pass" required><br>
+
+        <button type="submit" id="submit">Login</button>
+
+    </div>
+    <?php
+            include 'footer.html'
+            ?>
 </body>
 </html>
